@@ -15,9 +15,7 @@ int main(void)
 	cout << "|    |" << endl;	
 	cout << "|    |" << endl;
 	cout << "|____|" << endl;
-	cout << " Rectangle" << endl;
-		
-		
+	cout << " Rectangle" << endl;	
 
 	return 0;
 }

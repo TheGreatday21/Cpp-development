@@ -18,7 +18,7 @@ int main(void)
 	 cout <<"He is "<<age<<" years old?" <<endl;
 	 cout <<"He is "<<height<<" cm tall" <<endl;
 	 cout <<"He weighs "<<weight<< "kgs"<<endl;
-
+	 cout <<"He got straight "<<grade<<"'s on his report in all his classes"<<endl;
 
 
 	return 0;

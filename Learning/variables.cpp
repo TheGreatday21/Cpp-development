@@ -12,11 +12,13 @@ int main(void)
 	
 	string name = "Elijah";
 	int age = 25;
+	char grade = 'A';//the syntax is still the same as in c , we use single quotes to write single characters.
 
-	cout << " There was once a man named "<< name << endl;
-	cout << " When he was "<< age <<" he loved to code." << endl;
+	cout << " There was once a man named  \n\t\t\t"<< name << endl;
+	cout << " \t\tWhen he was "<< age <<" he loved to code." << endl;
 	cout << " His collegues were also "<< age << endl;
 	cout << " But there was just something about "<< name << endl;
+	cout << "His average mark in class was usually : "<<grade<<endl;
 
 	return 0;
 }
