@@ -27,8 +27,6 @@ int main(void)
     //the best use cases is the example of using them in a function that carries out a bubble sort algorithm 
 
 
-
-
-
+    return 0;
 
 }

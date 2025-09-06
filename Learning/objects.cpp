@@ -13,14 +13,14 @@ public:
     string studentId;
     double cgpa;
 
-    Student(string aName, int aAge, string aStudentId,double aCgpa){//creating an object function / constructor 
+    Student(string aName, int aAge, string aStudentId,double aCgpa){//creating a constructor 
         name = aName;
         age = aAge;
         studentId = aStudentId;
         cgpa = aCgpa;
     }
 
-    //creating a function to tell us whether a student is on th honor roll
+    //creating a method(class function) to tell us whether a student is on th honor roll
     bool hasHonors()//function with a return value is different from a constructor for class above in syntax 
     {
         if (cgpa >= 4.5)
@@ -42,8 +42,6 @@ int main(void)
     cout<<student1.hasHonors()<<endl;
     cout<<student3.hasHonors()<<endl;
 //so now we can scan through the objects with specific criteria we can check for 
-
-
 
 
 

@@ -5,7 +5,7 @@
 using namespace std;
 
 
-string dayOfTheWeek(int dayNum);//this is still possible in cpp also 
+string dayOfTheWeek(int dayNum);//prototyping is still very much possible in cpp also
 
 int main()
 {
@@ -48,6 +48,8 @@ string dayOfTheWeek(int dayNum)
             cout<< "That number doesnot correspond to any day of the week according to the comp calendar"<<endl;
         break;
     }  
+
+    return "Have a lovelly day";
 }
 
 

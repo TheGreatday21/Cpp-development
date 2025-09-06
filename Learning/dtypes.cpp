@@ -5,6 +5,7 @@ using namespace std;
 int main(void)
 {
 	//the data types are the same as usual 
+	//but c++ is different from c cause it has a dedicated string data type not the usual char* or char[] in c 
 	//char, int , float, string, double, bool
 
 	char grade = 'A';

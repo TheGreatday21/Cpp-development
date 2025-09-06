@@ -51,10 +51,10 @@ int main(void)
     cout<<movie_1.title<<endl;
     cout<<movie_2.title<<endl;
 
-    movie_1.setRating("LIKKE");///trying to set it with a different rating but it out to return NR cause what i placed in is not in the opptions i put 
+    movie_1.setRating("LIKKE");///trying to set it with a different rating but it out to return NR cause what i placed in is not in the options i put 
     movie_1.setRating("R");//This will reflect cause its part of the ones i specified in the function 
 
-    cout<<movie_1.getRating()<<endl;
+    cout<<movie_1.getRating()<<endl;//called the getter method to see the private attribute of rating 
     cout<<movie_2.getRating()<<endl;
     
 

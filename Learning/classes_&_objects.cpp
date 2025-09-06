@@ -1,5 +1,4 @@
 //this is about classes and objects in cpp 
-//theses are structs in c . its the same thing just abit fancier lol
 
 #include <iostream>
 using namespace std;
@@ -41,12 +40,12 @@ int main(void)
     Book book1;//creating an object from book class called book1
     book1.title = "Atomic Habbits";
     book1.author = "James Clear";
-    book1.pages = 630;
+    book1.pages = 630;//here we manually placed in the attributes of the object 
 
-    cout << book1.title<<endl;
+    cout << book1.title<<endl;//we can only change these because these attributes were made public
     cout << book1.author<<endl;
 
-    Book book2;//creating an object from book class called book1
+    Book book2;//creating an object from book class called book2
     book2.title = "Harry Potter";
     book2.author = "Jk Rolling ";
     book2.pages = 1020;
@@ -55,7 +54,7 @@ int main(void)
     cout << book2.title<<endl;
     cout << book2.author<<endl;
 
-    Student student1("b29155");
+    Student student1("b29155");//the constructor in this case was only taking one parameter and printing it out 
     student1.name = "Kaloli Samino";
     student1.age = 24;
 

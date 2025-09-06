@@ -19,7 +19,7 @@ int main(void)
     cout <<"How big of a tip are you offering to the waiter: (\n1. 10%\n2: 15%\n3: 20%\n) : ";
     cin>>userInput;
 
-    switch (userInput)
+    switch (userInput)//these are the same as in c 
     {
         case 1:
             tip = (0.1 * bill);

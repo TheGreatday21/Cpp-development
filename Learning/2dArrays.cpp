@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    //first [] - totatl elements /arrays in the array 
+    //first [] - total elements /arrays in the array 
     //second [] - how many elements are in each array in the array
     int numGrid[][2] = {
         {1,2},
@@ -36,10 +36,6 @@ int main()
         }
         cout<<"}\n";
     }
-
-
-
-
 
     return 0;
 }

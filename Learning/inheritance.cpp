@@ -9,15 +9,15 @@ class Chef
 protected:
     string chefName;
 public:
-    void makesSteak()
+    void makesSteak()//these are all methods 
     {
         cout << "The chef has made steak "<<endl;
     }
-      void makesDessert()
+    void makesDessert()
     {
         cout << "The chef has made dessert"<<endl;
     }
-      void makesSalad()
+    void makesSalad()
     {
         cout << "The chef has made salad "<<endl;
     }
@@ -48,7 +48,8 @@ public:
     {
         chefName = aName;
     }
-
+    
+    //this is a getter method to get the protected attribute
     string getName()
     {
         return chefName;
